@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reto2.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="main">
+
+
+        <form action="" class="main__form">
+            <label for="precioTienda">Precio:</label>
+            <input type="number" id="precioTienda">
+
+            <label for="descuentoTienda">Descuento tienda:</label>
+            <input type="number" id="descuentoTienda">
+
+            <label for="cuponDescuento">Cupon:</label>
+            <input type="text" id="cuponDescuento">
+
+            <button class="form__button" type="button" onclick="onClickCalcular()">CALCULAR</button>
+        </form>
+
+        <div class="ticket">
+            <p class="ticket__titulo">Tienda de Félix</p>
+            <p class="ticket__subtitulo">Precio Original:</p>
+            <p id="resultP" class="ticket__resultado">$---</p>
+
+
+            <p class="ticket__subtitulo">Precio con descuento:</p>
+            <p id="resultD" class="ticket__resultado">$---</p>
+        </div>
+    </section>
+
+
+    <script src="./reto2.js"></script>
+</body>
+
+</html>
