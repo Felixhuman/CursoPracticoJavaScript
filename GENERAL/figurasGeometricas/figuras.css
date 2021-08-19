@@ -41,3 +41,12 @@ html{
     justify-content: center;
     align-items: center;
 }
+.form__botones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form__butones--boton{
+    font-size: 2rem;
+}
